@@ -43,7 +43,7 @@ namespace DataAccessLayer.Repositories
                 _DbContext.StudentInfos.Remove(student);
                 await _DbContext.SaveChangesAsync();
             }
-            return false;
+            return true;
         }
     }
 }

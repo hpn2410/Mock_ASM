@@ -1,0 +1,121 @@
+[
+  {
+    "ContainingType": "Mock_ASM.Controllers.StudentInfoesController",
+    "Method": "GetStudentInfos",
+    "RelativePath": "api/StudentInfoes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BusinessLogicLayer.DTO.StudentInfoDTO, BusinessLogicLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Mock_ASM.Controllers.StudentInfoesController",
+    "Method": "CreateStudentInfo",
+    "RelativePath": "api/StudentInfoes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentInfo",
+        "Type": "BusinessLogicLayer.DTO.StudentInfoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BusinessLogicLayer.DTO.StudentInfoDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Mock_ASM.Controllers.StudentInfoesController",
+    "Method": "GetStudentInfoById",
+    "RelativePath": "api/StudentInfoes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BusinessLogicLayer.DTO.StudentInfoDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Mock_ASM.Controllers.StudentInfoesController",
+    "Method": "UpdateStudentInfo",
+    "RelativePath": "api/StudentInfoes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "studentInfo",
+        "Type": "BusinessLogicLayer.DTO.StudentInfoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BusinessLogicLayer.DTO.StudentDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Mock_ASM.Controllers.StudentInfoesController",
+    "Method": "DeleteStudentInfo",
+    "RelativePath": "api/StudentInfoes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
