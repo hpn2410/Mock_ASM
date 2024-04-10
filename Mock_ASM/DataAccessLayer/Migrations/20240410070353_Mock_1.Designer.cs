@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccessLayer.Migrations
 {
     [DbContext(typeof(MockAsmContext))]
-    [Migration("20240410044741_init")]
-    partial class init
+    [Migration("20240410070353_Mock_1")]
+    partial class Mock_1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

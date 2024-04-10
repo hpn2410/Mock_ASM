@@ -46,10 +46,10 @@ namespace BusinessLogicLayer.Services
             return _mapper.Map<StudentInfoDTO>(updatedStudent);
         }
 
-        public async Task DeleteStudentAsync(int id)
+        public async Task<bool> DeleteStudentAsync(int id)
         {
             // Add any additional business logic here
-            await _studentInfoRepository.DeleteStudentAsync(id);
+            return await _studentInfoRepository.DeleteStudentAsync(id);
         }
     }
 }

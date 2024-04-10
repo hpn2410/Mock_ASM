@@ -35,7 +35,7 @@ namespace DataAccessLayer.Repositories
             return studentInfo;
         }
 
-        public async Task DeleteStudentAsync(int id)
+        public async Task<bool> DeleteStudentAsync(int id)
         {
             var student = await _DbContext.StudentInfos.FindAsync(id);
             if (student != null)
@@ -43,6 +43,7 @@ namespace DataAccessLayer.Repositories
                 _DbContext.StudentInfos.Remove(student);
                 await _DbContext.SaveChangesAsync();
             }
+            return false;
         }
     }
 }

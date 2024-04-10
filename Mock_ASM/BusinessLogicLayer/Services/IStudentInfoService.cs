@@ -10,7 +10,7 @@ namespace BusinessLogicLayer.Services
         Task<StudentInfoDTO> GetStudentByIdAsync(int id);
         Task<StudentInfoDTO> CreateStudentAsync(StudentInfoDTO studentInfo);
         Task<StudentInfoDTO> UpdateStudentAsync(int id, StudentInfoDTO studentInfo);
-        Task DeleteStudentAsync(int id);
+        Task<bool> DeleteStudentAsync(int id);
     }
 }
 

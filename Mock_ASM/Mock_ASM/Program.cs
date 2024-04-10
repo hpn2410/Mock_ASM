@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using BusinessLogicLayer.Services;
 using DataAccessLayer.Repositories;
 using BusinessLogicLayer.Mapping;
+using AutoMapper;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add configuration
