@@ -2,6 +2,7 @@ using DataAccessLayer.Models;
 using Microsoft.EntityFrameworkCore;
 using BusinessLogicLayer.Services;
 using DataAccessLayer.Repositories;
+using BusinessLogicLayer.Mapping;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add configuration
@@ -18,6 +19,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IStudentInfoService, StudentInfoService>();
 // Add repository
 builder.Services.AddScoped<IStudentInfoRepository, StudentInfoRepository>();
+// Add AutoMapper
+builder.Services.AddAutoMapper(typeof(MappingInfo));
 
 // Add DbContext
 var connectionString = builder.Configuration.GetConnectionString("Student_Management");

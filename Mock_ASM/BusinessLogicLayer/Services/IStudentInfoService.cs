@@ -1,13 +1,16 @@
-﻿using DataAccessLayer.Models;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using BusinessLogicLayer.DTO;
 
 namespace BusinessLogicLayer.Services
 {
     public interface IStudentInfoService
     {
-        Task<List<StudentInfo>> GetAllStudentsAsync(); // Update return type
-        Task<StudentInfo> GetStudentByIdAsync(int id); // Update return type
-        Task CreateStudentAsync(StudentInfo studentInfo); // Update parameter type
-        Task UpdateStudentAsync(StudentInfo studentInfo); // Update parameter type
+        Task<List<StudentInfoDTO>> GetAllStudentsAsync();
+        Task<StudentInfoDTO> GetStudentByIdAsync(int id);
+        Task<StudentInfoDTO> CreateStudentAsync(StudentInfoDTO studentInfo);
+        Task<StudentInfoDTO> UpdateStudentAsync(int id, StudentInfoDTO studentInfo);
         Task DeleteStudentAsync(int id);
     }
 }
+

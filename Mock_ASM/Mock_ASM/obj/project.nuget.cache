@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "X+ZGwgrXDUwr0NNS/cDAmUvndLFWw6ieOju5S39+5qEVA8u0gVAsiKy9FMDXmhwQAIinhywLFKshxzyEE0fxXg==",
+  "dgSpecHash": "EonQ1VS1LCUS7/vBSPO2OJtAL1Yb5jgqKZsv1PvnqRbYxTM203kML43Wzxu8Jg7v7MDXcoNpTIZkRF7QrT5MwQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pnu24\\source\\repos\\Mock_ASM\\Mock_ASM\\Mock_ASM.csproj",
+  "projectFilePath": "C:\\Mock_ASM\\Mock_ASM\\Mock_ASM\\Mock_ASM.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\pnu24\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\pnu24\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\pnu24\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\pnu24\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",

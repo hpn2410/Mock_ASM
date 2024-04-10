@@ -21,16 +21,18 @@ namespace DataAccessLayer.Repositories
             return await _DbContext.StudentInfos.FindAsync(id);
         }
 
-        public async Task CreateStudentAsync(StudentInfo studentInfo)
+        public async Task<StudentInfo> CreateStudentAsync(StudentInfo studentInfo)
         {
             _DbContext.StudentInfos.Add(studentInfo);
             await _DbContext.SaveChangesAsync();
+            return studentInfo;
         }
 
-        public async Task UpdateStudentAsync(StudentInfo studentInfo)
+        public async Task<StudentInfo> UpdateStudentAsync(StudentInfo studentInfo)
         {
             _DbContext.Entry(studentInfo).State = EntityState.Modified;
             await _DbContext.SaveChangesAsync();
+            return studentInfo;
         }
 
         public async Task DeleteStudentAsync(int id)

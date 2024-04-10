@@ -6,8 +6,8 @@ namespace DataAccessLayer.Repositories
     {
         Task<List<StudentInfo>> GetAllStudentsAsync();
         Task<StudentInfo> GetStudentByIdAsync(int id);
-        Task CreateStudentAsync(StudentInfo studentInfo);
-        Task UpdateStudentAsync(StudentInfo studentInfo);
+        Task<StudentInfo> CreateStudentAsync(StudentInfo studentInfo);
+        Task<StudentInfo> UpdateStudentAsync(StudentInfo studentInfo);
         Task DeleteStudentAsync(int id);
     }
 }
