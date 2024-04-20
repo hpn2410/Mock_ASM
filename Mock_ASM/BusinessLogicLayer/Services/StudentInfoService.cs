@@ -38,18 +38,20 @@ namespace BusinessLogicLayer.Services
              return _mapper.Map<StudentInfoDTO>(addStudentInfo);
         }
 
-        public async Task<StudentInfoDTO> UpdateStudentAsync(int id, StudentInfoDTO studentInfo)
-        {
-            // Add any additional business logic here
-            var updatedStudent = await _studentInfoRepository.
-                UpdateStudentAsync(_mapper.Map<StudentInfo>(studentInfo));
-            return _mapper.Map<StudentInfoDTO>(updatedStudent);
-        }
+         public async Task<StudentInfoDTO> UpdateStudentAsync(int id, StudentInfoDTO studentInfo)
+         {
+             // Add any additional business logic here
+             var updatedStudent = await _studentInfoRepository.
+                 UpdateStudentAsync(_mapper.Map<StudentInfo>(studentInfo));
+             return _mapper.Map<StudentInfoDTO>(updatedStudent);
+         }
+        
 
         public async Task<bool> DeleteStudentAsync(int id)
         {
             // Add any additional business logic here
             return await _studentInfoRepository.DeleteStudentAsync(id);
         }
+        
     }
 }

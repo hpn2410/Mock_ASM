@@ -1,5 +1,6 @@
 ﻿using DataAccessLayer.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Linq.Dynamic.Core;
 
 namespace DataAccessLayer.Repositories
 {
@@ -45,5 +46,55 @@ namespace DataAccessLayer.Repositories
             }
             return true;
         }
+        public async Task<List<StudentInfo>> GetFilteredAndPagedStudentsAsync(int page, int pageSize, string sortBy, string sortOrder)
+        {
+            
+            int skip = (page - 1) * pageSize;
+
+            
+            var query = _DbContext.StudentInfos.AsQueryable();
+
+            
+            if (sortOrder.ToLower() == "asc")
+            {
+                switch (sortBy.ToLower())
+                {
+                    case "studentinfoid":
+                        query = query.OrderBy(s => s.StudentInfoId);
+                        break;
+                    case "name":
+                        query = query.OrderBy(s => s.StudentName);
+                        break;
+                    
+                    default:
+                       
+                        query = query.OrderBy(s => s.StudentInfoId);
+                        break;
+                }
+            }
+            else
+            {
+                switch (sortBy.ToLower())
+                {
+                    case "studentinfoid":
+                        query = query.OrderByDescending(s => s.StudentInfoId);
+                        break;
+                    case "name":
+                        query = query.OrderByDescending(s => s.StudentName);
+                        break;
+                    // Thêm các trường sắp xếp khác nếu cần
+                    default:
+                        // Mặc định sắp xếp theo ID nếu không có trường sắp xếp nào được chỉ định
+                        query = query.OrderByDescending(s => s.StudentInfoId);
+                        break;
+                }
+            }
+
+            // Thực hiện phân trang và lấy dữ liệu
+            var students = await query.Skip(skip).Take(pageSize).ToListAsync();
+
+            return students;
+        }
+
     }
 }

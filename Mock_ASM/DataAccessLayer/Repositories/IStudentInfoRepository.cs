@@ -9,5 +9,6 @@ namespace DataAccessLayer.Repositories
         Task<StudentInfo> CreateStudentAsync(StudentInfo studentInfo);
         Task<StudentInfo> UpdateStudentAsync(StudentInfo studentInfo);
         Task<bool> DeleteStudentAsync(int id);
+        Task<List<StudentInfo>> GetFilteredAndPagedStudentsAsync(int page, int pageSize, string sortBy, string sortOrder);
     }
 }
