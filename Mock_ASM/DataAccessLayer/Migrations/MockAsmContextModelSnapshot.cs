@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
-
+//trycatch ở đây vì có thể sẽ xảy ra lỗi như lỗi kết nối, lỗi runtime,... 
 namespace DataAccessLayer.Migrations
 {
     [DbContext(typeof(MockAsmContext))]
@@ -15,14 +15,16 @@ namespace DataAccessLayer.Migrations
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
+            try
+            {
 #pragma warning disable 612, 618
-            modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.3")
-                .HasAnnotation("Relational:MaxIdentifierLength", 128);
+                modelBuilder
+                    .HasAnnotation("ProductVersion", "8.0.3")
+                    .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
-            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+                SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("ClassInstructor", b =>
+                modelBuilder.Entity("ClassInstructor", b =>
                 {
                     b.Property<int>("ClassId")
                         .HasColumnType("int")
@@ -40,7 +42,7 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("Class_Instructor", (string)null);
                 });
 
-            modelBuilder.Entity("DataAccessLayer.Models.Class", b =>
+                modelBuilder.Entity("DataAccessLayer.Models.Class", b =>
                 {
                     b.Property<int>("ClassId")
                         .ValueGeneratedOnAdd()
@@ -73,7 +75,7 @@ namespace DataAccessLayer.Migrations
                         });
                 });
 
-            modelBuilder.Entity("DataAccessLayer.Models.Instructor", b =>
+                modelBuilder.Entity("DataAccessLayer.Models.Instructor", b =>
                 {
                     b.Property<int>("InstructorId")
                         .ValueGeneratedOnAdd()
@@ -123,7 +125,7 @@ namespace DataAccessLayer.Migrations
                         });
                 });
 
-            modelBuilder.Entity("DataAccessLayer.Models.Student", b =>
+                modelBuilder.Entity("DataAccessLayer.Models.Student", b =>
                 {
                     b.Property<int>("StudentId")
                         .ValueGeneratedOnAdd()
@@ -167,7 +169,7 @@ namespace DataAccessLayer.Migrations
                         });
                 });
 
-            modelBuilder.Entity("DataAccessLayer.Models.StudentInfo", b =>
+                modelBuilder.Entity("DataAccessLayer.Models.StudentInfo", b =>
                 {
                     b.Property<int>("StudentInfoId")
                         .ValueGeneratedOnAdd()
@@ -217,7 +219,7 @@ namespace DataAccessLayer.Migrations
                         });
                 });
 
-            modelBuilder.Entity("ClassInstructor", b =>
+                modelBuilder.Entity("ClassInstructor", b =>
                 {
                     b.HasOne("DataAccessLayer.Models.Class", null)
                         .WithMany()
@@ -232,7 +234,7 @@ namespace DataAccessLayer.Migrations
                         .HasConstraintName("FK__Class_Ins__instr__35BCFE0A");
                 });
 
-            modelBuilder.Entity("DataAccessLayer.Models.Student", b =>
+                modelBuilder.Entity("DataAccessLayer.Models.Student", b =>
                 {
                     b.HasOne("DataAccessLayer.Models.Class", "Class")
                         .WithMany("Students")
@@ -251,16 +253,24 @@ namespace DataAccessLayer.Migrations
                     b.Navigation("StudentInfo");
                 });
 
-            modelBuilder.Entity("DataAccessLayer.Models.Class", b =>
+                modelBuilder.Entity("DataAccessLayer.Models.Class", b =>
                 {
                     b.Navigation("Students");
                 });
 
-            modelBuilder.Entity("DataAccessLayer.Models.StudentInfo", b =>
+                modelBuilder.Entity("DataAccessLayer.Models.StudentInfo", b =>
                 {
                     b.Navigation("Students");
                 });
 #pragma warning restore 612, 618
+            
+
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine($"An error occurred while building the model: {ex.Message}");
+            }
         }
     }
 }

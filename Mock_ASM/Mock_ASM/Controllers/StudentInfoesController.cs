@@ -27,7 +27,7 @@ namespace Mock_ASM.Controllers
         public async Task<ActionResult<IEnumerable<StudentInfoDTO>>> GetStudentInfos()
         {
             var students = await _studentInfoService.GetAllStudentsAsync();
-            return Ok(students);
+            return Ok(students); 
         }
 
         // GET: api/StudentInfoes/5
@@ -78,8 +78,9 @@ namespace Mock_ASM.Controllers
             }
 
             var newStudent = await _studentInfoService.CreateStudentAsync(studentInfo);
-            return CreatedAtAction(nameof(GetStudentInfoById), 
-                new { id = newStudent.StudentInfoId }, newStudent);
+            //return CreatedAtAction(nameof(GetStudentInfoById), 
+            //    new { id = newStudent.StudentInfoId }, newStudent);
+            return studentInfo;
         }
 
         // DELETE: api/StudentInfoes/5
@@ -91,7 +92,21 @@ namespace Mock_ASM.Controllers
             {
                 return NotFound();
             }
-            return NoContent();
+            return new NoContentWithMessageResult("Student deleted successfully.");
+        }
+        public class NoContentWithMessageResult : StatusCodeResult
+        {
+            private readonly string _message;
+
+            public NoContentWithMessageResult(string message) : base(204)
+            {
+                _message = message;
+            }
+
+            public override Task ExecuteResultAsync(ActionContext context)
+            {
+                return base.ExecuteResultAsync(context);
+            }
         }
     }
 }

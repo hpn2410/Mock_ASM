@@ -512,3 +512,4 @@ C:\Mock_ASM\Mock_ASM\Mock_ASM\obj\Debug\net8.0\refint\Mock_ASM.dll
 C:\Mock_ASM\Mock_ASM\Mock_ASM\obj\Debug\net8.0\Mock_ASM.pdb
 C:\Mock_ASM\Mock_ASM\Mock_ASM\obj\Debug\net8.0\Mock_ASM.genruntimeconfig.cache
 C:\Mock_ASM\Mock_ASM\Mock_ASM\obj\Debug\net8.0\ref\Mock_ASM.dll
+C:\Mock_ASM\Mock_ASM\Mock_ASM\bin\Debug\net8.0\System.Linq.Dynamic.Core.dll
