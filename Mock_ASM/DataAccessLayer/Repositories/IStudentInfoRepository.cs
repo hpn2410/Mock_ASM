@@ -1,4 +1,6 @@
 ﻿using DataAccessLayer.Models;
+using DataAccessLayer.Sorting;
+using System.Collections.Generic;
 
 namespace DataAccessLayer.Repositories
 {
@@ -9,6 +11,8 @@ namespace DataAccessLayer.Repositories
         Task<StudentInfo> CreateStudentAsync(StudentInfo studentInfo);
         Task<StudentInfo> UpdateStudentAsync(StudentInfo studentInfo);
         Task<bool> DeleteStudentAsync(int id);
-        Task<List<StudentInfo>> GetFilteredAndPagedStudentsAsync(int page, int pageSize, string sortBy, string sortOrder);
+        IEnumerable<StudentInfo> GetStudentInfoes(string? studentName,string? email, 
+            SortField? sortField, SortType? sortType, 
+            int pageNumber, int pageSize, out int totalRecords);
     }
 }

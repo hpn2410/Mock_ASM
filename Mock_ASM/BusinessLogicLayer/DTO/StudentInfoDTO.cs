@@ -23,6 +23,16 @@ namespace BusinessLogicLayer.DTO
         //public EmailAddressAttribute Email { get; set; } = null!;
         public string Email { get; set; } = null!;
 
+        public enum SortField
+        {
+            StudentName, DateOfBirth, Phone, Email
+        }
+        public enum SortType
+        {
+            Ascending = 1,
+            Descending = 2,
+        }
+
     }   
 }
 

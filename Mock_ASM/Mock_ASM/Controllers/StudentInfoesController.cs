@@ -8,6 +8,9 @@ using Microsoft.EntityFrameworkCore;
 using DataAccessLayer.Models;
 using BusinessLogicLayer.DTO;
 using BusinessLogicLayer.Services;
+using DataAccessLayer.Sorting;
+using DataAccessLayer.Repositories;
+using AutoMapper;
 
 namespace Mock_ASM.Controllers
 {
@@ -16,10 +19,15 @@ namespace Mock_ASM.Controllers
     public class StudentInfoesController : ControllerBase
     {
         private readonly IStudentInfoService _studentInfoService;
+        private readonly IStudentInfoRepository _studentInfoRepository;
+        private readonly IMapper _mapper;
 
-        public StudentInfoesController(IStudentInfoService studentInfoService)
+        public StudentInfoesController(IStudentInfoService studentInfoService, 
+            IStudentInfoRepository studentInfoRepository, IMapper mapper)
         {
             _studentInfoService = studentInfoService;
+            _studentInfoRepository = studentInfoRepository;
+            _mapper = mapper;
         }
 
         // GET: api/StudentInfoes
@@ -47,7 +55,8 @@ namespace Mock_ASM.Controllers
         // PUT: api/StudentInfoes/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<ActionResult<StudentDTO>> UpdateStudentInfo(int id, StudentInfoDTO studentInfo)
+        public async Task<ActionResult<StudentInfoDTO>> UpdateStudentInfo(int id, 
+            StudentInfoDTO studentInfo)
         {
             if (id != studentInfo.StudentInfoId)
             {
@@ -107,6 +116,21 @@ namespace Mock_ASM.Controllers
             {
                 return base.ExecuteResultAsync(context);
             }
+        }
+
+        [HttpGet("filter")]
+        public ActionResult<IEnumerable<StudentInfoDTO>> GetStudents([FromQuery] string? studentName,
+            [FromQuery] string? email, [FromQuery] SortField? sortField, 
+            [FromQuery] SortType? sortType, [FromQuery] int pageNumber, [FromQuery] int pageSize)
+        {
+            int totalRecords;
+            var studentInfos = _studentInfoRepository.GetStudentInfoes(
+                studentName, email, sortField, sortType, pageNumber,
+                pageSize, out totalRecords);
+            var studentInfoDTOs = _mapper.Map<IEnumerable<StudentInfoDTO>>(studentInfos);
+
+            Response.Headers.Add("X-Total-Count", totalRecords.ToString());
+            return Ok(studentInfoDTOs);
         }
     }
 }

@@ -2,6 +2,7 @@
 using DataAccessLayer.Repositories;
 using BusinessLogicLayer.DTO;
 using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 
 namespace BusinessLogicLayer.Services
 {
@@ -52,6 +53,5 @@ namespace BusinessLogicLayer.Services
             // Add any additional business logic here
             return await _studentInfoRepository.DeleteStudentAsync(id);
         }
-        
     }
 }

@@ -11,7 +11,6 @@ namespace BusinessLogicLayer.Services
         Task<StudentInfoDTO> CreateStudentAsync(StudentInfoDTO studentInfo);
         Task<StudentInfoDTO> UpdateStudentAsync(int id, StudentInfoDTO studentInfo);
         Task<bool> DeleteStudentAsync(int id);
-        //Task GetFilteredAndPagedStudentsAsync(int page, int pageSize, string sortBy, string sortOrder);
     }
 }
 

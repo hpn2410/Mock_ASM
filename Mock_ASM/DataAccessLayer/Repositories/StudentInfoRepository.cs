@@ -1,6 +1,8 @@
 ﻿using DataAccessLayer.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Dynamic.Core;
+using SortField = DataAccessLayer.Sorting.SortField;
+using SortType = DataAccessLayer.Sorting.SortType;
 
 namespace DataAccessLayer.Repositories
 {
@@ -46,55 +48,57 @@ namespace DataAccessLayer.Repositories
             }
             return true;
         }
-        public async Task<List<StudentInfo>> GetFilteredAndPagedStudentsAsync(int page, int pageSize, string sortBy, string sortOrder)
-        {
-            
-            int skip = (page - 1) * pageSize;
 
-            
+        public IEnumerable<StudentInfo> GetStudentInfoes(string? studentName, string? email,
+            SortField? sortField, SortType? sortType,
+            int pageNumber, int pageSize, out int totalRecords)
+        {
             var query = _DbContext.StudentInfos.AsQueryable();
 
-            
-            if (sortOrder.ToLower() == "asc")
+            // Apply filtering
+            if (!string.IsNullOrWhiteSpace(studentName))
             {
-                switch (sortBy.ToLower())
-                {
-                    case "studentinfoid":
-                        query = query.OrderBy(s => s.StudentInfoId);
-                        break;
-                    case "name":
-                        query = query.OrderBy(s => s.StudentName);
-                        break;
-                    
-                    default:
-                       
-                        query = query.OrderBy(s => s.StudentInfoId);
-                        break;
-                }
+                query = query.Where(s => s.StudentName != null && s.StudentName.Contains(studentName));
             }
-            else
+            if (!string.IsNullOrWhiteSpace(email))
             {
-                switch (sortBy.ToLower())
+                query = query.Where(s => s.Email != null && s.Email.Contains(email));
+            }
+
+            // Apply sorting
+            if (sortField.HasValue && sortType.HasValue)
+            {
+                switch (sortField.Value)
                 {
-                    case "studentinfoid":
-                        query = query.OrderByDescending(s => s.StudentInfoId);
+                    case SortField.StudentName:
+                        query = sortType == SortType.Ascending ?
+                            query.OrderBy(s => s.StudentName) :
+                            query.OrderByDescending(s => s.StudentName);
                         break;
-                    case "name":
-                        query = query.OrderByDescending(s => s.StudentName);
+                    case SortField.DateOfBirth:
+                        query = sortType == SortType.Ascending ?
+                            query.OrderBy(s => s.DateOfBirth) :
+                            query.OrderByDescending(s => s.DateOfBirth);
                         break;
-                    // Thêm các trường sắp xếp khác nếu cần
-                    default:
-                        // Mặc định sắp xếp theo ID nếu không có trường sắp xếp nào được chỉ định
-                        query = query.OrderByDescending(s => s.StudentInfoId);
+                    case SortField.Phone:
+                        query = sortType == SortType.Ascending ?
+                            query.OrderBy(s => s.Phone) :
+                            query.OrderByDescending(s => s.Phone);
+                        break;
+                    case SortField.Email:
+                        query = sortType == SortType.Ascending ?
+                            query.OrderBy(s => s.Email) :
+                            query.OrderByDescending(s => s.Email);
                         break;
                 }
             }
 
-            // Thực hiện phân trang và lấy dữ liệu
-            var students = await query.Skip(skip).Take(pageSize).ToListAsync();
+            totalRecords = query.Count();
 
-            return students;
+
+            // Apply pagination
+            var paginatedQuery = query.Skip((pageNumber - 1) * pageSize).Take(pageSize);
+            return paginatedQuery.ToList();
         }
-
     }
 }
