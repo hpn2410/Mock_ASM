@@ -4,6 +4,7 @@ using BusinessLogicLayer.Services;
 using DataAccessLayer.Repositories;
 using BusinessLogicLayer.Mapping;
 using AutoMapper;
+using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add configuration
@@ -11,7 +12,14 @@ builder.Configuration.AddJsonFile("appsettings.json");
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers(options =>
+{
+    options.ReturnHttpNotAcceptable = true;
+}).AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
+        options.JsonSerializerOptions.IgnoreNullValues = true;
+    }).AddXmlDataContractSerializerFormatters();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
