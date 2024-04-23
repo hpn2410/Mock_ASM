@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+﻿
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using DataAccessLayer.Models;
 using BusinessLogicLayer.DTO;
 using BusinessLogicLayer.Services;
@@ -32,17 +27,17 @@ namespace Mock_ASM.Controllers
 
         // GET: api/StudentInfoes
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<StudentInfoDTO>>> GetStudentInfos()
+        public async Task<ActionResult<IEnumerable<StudentInfoDTO>>> GetAll()
         {
-            var students = await _studentInfoService.GetAllStudentsAsync();
-            return Ok(students); 
+            var students = await _studentInfoService.GetAll();
+            return Ok(students);
         }
 
         // GET: api/StudentInfoes/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<StudentInfoDTO>> GetStudentInfoById(int id)
+        public async Task<ActionResult<StudentInfoDTO>> GetById(int id)
         {
-            var studentInfo = await _studentInfoService.GetStudentByIdAsync(id);
+            var studentInfo = await _studentInfoService.GetById(id);
 
             if (studentInfo == null)
             {
@@ -55,7 +50,7 @@ namespace Mock_ASM.Controllers
         // PUT: api/StudentInfoes/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<ActionResult<StudentInfoDTO>> UpdateStudentInfo(int id, 
+        public async Task<ActionResult<StudentInfoDTO>> Put(int id, 
             StudentInfoDTO studentInfo)
         {
             if (id != studentInfo.StudentInfoId)
@@ -68,7 +63,7 @@ namespace Mock_ASM.Controllers
                 return BadRequest(ModelState);
             }
 
-            var updatedStudent = await _studentInfoService.UpdateStudentAsync(id, studentInfo);
+            var updatedStudent = await _studentInfoService.Put(id, studentInfo);
             if (updatedStudent == null)
             {
                 return NotFound();
@@ -79,14 +74,13 @@ namespace Mock_ASM.Controllers
         // POST: api/StudentInfoes
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<StudentInfoDTO>> CreateStudentInfo(StudentInfoDTO studentInfo)
+        public async Task<ActionResult<StudentInfoDTO>> Post(StudentInfoDTO studentInfo)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
-
-            var newStudent = await _studentInfoService.CreateStudentAsync(studentInfo);
+            await _studentInfoService.Post(studentInfo);
             //return CreatedAtAction(nameof(GetStudentInfoById), 
             //    new { id = newStudent.StudentInfoId }, newStudent);
             return studentInfo;
@@ -94,9 +88,9 @@ namespace Mock_ASM.Controllers
 
         // DELETE: api/StudentInfoes/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteStudentInfo(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            var result = await _studentInfoService.DeleteStudentAsync(id);
+            var result = await _studentInfoService.Delete(id);
             if (!result)
             {
                 return NotFound();

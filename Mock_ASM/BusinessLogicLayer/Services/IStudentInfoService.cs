@@ -1,16 +1,15 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿
 using BusinessLogicLayer.DTO;
 
 namespace BusinessLogicLayer.Services
 {
     public interface IStudentInfoService
     {
-        Task<List<StudentInfoDTO>> GetAllStudentsAsync();
-        Task<StudentInfoDTO> GetStudentByIdAsync(int id);
-        Task<StudentInfoDTO> CreateStudentAsync(StudentInfoDTO studentInfo);
-        Task<StudentInfoDTO> UpdateStudentAsync(int id, StudentInfoDTO studentInfo);
-        Task<bool> DeleteStudentAsync(int id);
+        Task<List<StudentInfoDTO>> GetAll();
+        Task<StudentInfoDTO> GetById(int id);
+        Task<StudentInfoDTO> Post(StudentInfoDTO studentInfo);
+        Task<StudentInfoDTO> Put(int id, StudentInfoDTO studentInfo);
+        Task<bool> Delete(int id);
     }
 }
 

@@ -20,14 +20,21 @@ builder.Services.AddControllers(options =>
         options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
         options.JsonSerializerOptions.IgnoreNullValues = true;
     }).AddXmlDataContractSerializerFormatters();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Add services
 builder.Services.AddScoped<IStudentInfoService, StudentInfoService>();
+builder.Services.AddScoped<IStudentService, StudentService>();
+builder.Services.AddScoped<InstructorService, InstructorBLLService>();
+builder.Services.AddScoped<IClassService, ClassService>();
 // Add repository
 builder.Services.AddScoped<IStudentInfoRepository, StudentInfoRepository>();
+builder.Services.AddScoped<IStudentRepository, StudentRepository>();
+builder.Services.AddScoped<InstructorRepository, InstructorDbRepository>();
+builder.Services.AddScoped<IClassRepository, ClassRepository>();
 // Add AutoMapper
 builder.Services.AddAutoMapper(typeof(MappingInfo));
 

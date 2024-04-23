@@ -17,41 +17,41 @@ namespace BusinessLogicLayer.Services
             _mapper = mapper;
         }
 
-        public async Task<List<StudentInfoDTO>> GetAllStudentsAsync()
+        public async Task<List<StudentInfoDTO>> GetAll()
         {
             // Add any additional business logic here
-            var studentInfoes = await _studentInfoRepository.GetAllStudentsAsync();
+            var studentInfoes = await _studentInfoRepository.GetAll();
             return _mapper.Map<List<StudentInfoDTO>>(studentInfoes);
         }
 
-        public async Task<StudentInfoDTO> GetStudentByIdAsync(int id)
+        public async Task<StudentInfoDTO> GetById(int id)
         {
             // Add any additional business logic here
-            var studentInfo = await _studentInfoRepository.GetStudentByIdAsync(id);
+            var studentInfo = await _studentInfoRepository.GetById(id);
             return _mapper.Map<StudentInfoDTO>(studentInfo);
         }
 
-        public async Task<StudentInfoDTO> CreateStudentAsync(StudentInfoDTO studentInfo)
+        public async Task<StudentInfoDTO> Post(StudentInfoDTO studentInfo)
         {
             // Add any additional business logic here
-            var addStudentInfo = await _studentInfoRepository.CreateStudentAsync
+            var addStudentInfo = await _studentInfoRepository.Post
                 (_mapper.Map<StudentInfo>(studentInfo));
              return _mapper.Map<StudentInfoDTO>(addStudentInfo);
         }
 
-         public async Task<StudentInfoDTO> UpdateStudentAsync(int id, StudentInfoDTO studentInfo)
+         public async Task<StudentInfoDTO> Put(int id, StudentInfoDTO studentInfo)
          {
              // Add any additional business logic here
              var updatedStudent = await _studentInfoRepository.
-                 UpdateStudentAsync(_mapper.Map<StudentInfo>(studentInfo));
+                 Put(_mapper.Map<StudentInfo>(studentInfo));
              return _mapper.Map<StudentInfoDTO>(updatedStudent);
          }
         
 
-        public async Task<bool> DeleteStudentAsync(int id)
+        public async Task<bool> Delete(int id)
         {
             // Add any additional business logic here
-            return await _studentInfoRepository.DeleteStudentAsync(id);
+            return await _studentInfoRepository.Delete(id);
         }
     }
 }
