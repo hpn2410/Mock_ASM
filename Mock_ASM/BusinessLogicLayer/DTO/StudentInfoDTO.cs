@@ -20,7 +20,6 @@ namespace BusinessLogicLayer.DTO
 
         [Required(ErrorMessage = "Email is required")]
         [EmailAddress(ErrorMessage = "Invalid email format")]
-        //public EmailAddressAttribute Email { get; set; } = null!;
         public string Email { get; set; } = null!;
 
         public enum SortField

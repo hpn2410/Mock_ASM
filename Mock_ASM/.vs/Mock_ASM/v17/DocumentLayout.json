@@ -3,60 +3,56 @@
   "WorkspaceRootPath": "C:\\Mock_ASM\\Mock_ASM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FEEC6EC2-F748-4C7F-A88F-729437A6DA9B}|Mock_ASM\\Mock_ASM.csproj|c:\\mock_asm\\mock_asm\\mock_asm\\controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEEC6EC2-F748-4C7F-A88F-729437A6DA9B}|Mock_ASM\\Mock_ASM.csproj|solutionrelative:mock_asm\\controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEEC6EC2-F748-4C7F-A88F-729437A6DA9B}|Mock_ASM\\Mock_ASM.csproj|c:\\mock_asm\\mock_asm\\mock_asm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FEEC6EC2-F748-4C7F-A88F-729437A6DA9B}|Mock_ASM\\Mock_ASM.csproj|solutionrelative:mock_asm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEEC6EC2-F748-4C7F-A88F-729437A6DA9B}|Mock_ASM\\Mock_ASM.csproj|c:\\mock_asm\\mock_asm\\mock_asm\\controllers\\instructorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEEC6EC2-F748-4C7F-A88F-729437A6DA9B}|Mock_ASM\\Mock_ASM.csproj|solutionrelative:mock_asm\\controllers\\instructorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEEC6EC2-F748-4C7F-A88F-729437A6DA9B}|Mock_ASM\\Mock_ASM.csproj|c:\\mock_asm\\mock_asm\\mock_asm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEEC6EC2-F748-4C7F-A88F-729437A6DA9B}|Mock_ASM\\Mock_ASM.csproj|solutionrelative:mock_asm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\mock_asm\\mock_asm\\businesslogiclayer\\mapping\\mappinginfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\mapping\\mappinginfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\mock_asm\\mock_asm\\businesslogiclayer\\services\\iclassservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\iclassservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\mock_asm\\mock_asm\\businesslogiclayer\\services\\classservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\classservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\mock_asm\\mock_asm\\businesslogiclayer\\services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\mock_asm\\mock_asm\\businesslogiclayer\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|c:\\mock_asm\\mock_asm\\dataaccesslayer\\repositories\\iclassrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\iclassrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|c:\\mock_asm\\mock_asm\\dataaccesslayer\\repositories\\classrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\classrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|c:\\mock_asm\\mock_asm\\dataaccesslayer\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|c:\\mock_asm\\mock_asm\\dataaccesslayer\\repositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Migrations\\20240424093543_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccessLayer\\Migrations\\20240424093543_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|c:\\mock_asm\\mock_asm\\dataaccesslayer\\models\\mockasmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\mockasmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEEC6EC2-F748-4C7F-A88F-729437A6DA9B}|Mock_ASM\\Mock_ASM.csproj|c:\\mock_asm\\mock_asm\\mock_asm\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEEC6EC2-F748-4C7F-A88F-729437A6DA9B}|Mock_ASM\\Mock_ASM.csproj|solutionrelative:mock_asm\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|c:\\mock_asm\\mock_asm\\dataaccesslayer\\models\\studentinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\studentinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|c:\\mock_asm\\mock_asm\\dataaccesslayer\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEC6EC2-F748-4C7F-A88F-729437A6DA9B}|Mock_ASM\\Mock_ASM.csproj|c:\\mock_asm\\mock_asm\\mock_asm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEEC6EC2-F748-4C7F-A88F-729437A6DA9B}|Mock_ASM\\Mock_ASM.csproj|solutionrelative:mock_asm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEC6EC2-F748-4C7F-A88F-729437A6DA9B}|Mock_ASM\\Mock_ASM.csproj|c:\\mock_asm\\mock_asm\\mock_asm\\mock_asm.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{FEEC6EC2-F748-4C7F-A88F-729437A6DA9B}|Mock_ASM\\Mock_ASM.csproj|solutionrelative:mock_asm\\mock_asm.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\mock_asm\\mock_asm\\businesslogiclayer\\dto\\studentinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dto\\studentinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|c:\\mock_asm\\mock_asm\\dataaccesslayer\\repositories\\studentinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\studentinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|c:\\mock_asm\\mock_asm\\dataaccesslayer\\repositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEC6EC2-F748-4C7F-A88F-729437A6DA9B}|Mock_ASM\\Mock_ASM.csproj|c:\\mock_asm\\mock_asm\\mock_asm\\controllers\\studentinfoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEEC6EC2-F748-4C7F-A88F-729437A6DA9B}|Mock_ASM\\Mock_ASM.csproj|solutionrelative:mock_asm\\controllers\\studentinfoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\mock_asm\\mock_asm\\businesslogiclayer\\services\\classservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\classservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\mock_asm\\mock_asm\\businesslogiclayer\\services\\iclassservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\iclassservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\mock_asm\\mock_asm\\businesslogiclayer\\services\\instructorbllservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,6 +67,66 @@
       "RelativeMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\istudentinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\mock_asm\\mock_asm\\businesslogiclayer\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\mock_asm\\mock_asm\\businesslogiclayer\\services\\studentinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\studentinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\mock_asm\\mock_asm\\businesslogiclayer\\mapping\\mappinginfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\mapping\\mappinginfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\mock_asm\\mock_asm\\businesslogiclayer\\dto\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dto\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\mock_asm\\mock_asm\\businesslogiclayer\\dto\\instructordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dto\\instructordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\mock_asm\\mock_asm\\businesslogiclayer\\dto\\classdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dto\\classdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEC6EC2-F748-4C7F-A88F-729437A6DA9B}|Mock_ASM\\Mock_ASM.csproj|c:\\mock_asm\\mock_asm\\mock_asm\\controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEEC6EC2-F748-4C7F-A88F-729437A6DA9B}|Mock_ASM\\Mock_ASM.csproj|solutionrelative:mock_asm\\controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|c:\\mock_asm\\mock_asm\\dataaccesslayer\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|c:\\mock_asm\\mock_asm\\dataaccesslayer\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|c:\\mock_asm\\mock_asm\\dataaccesslayer\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEC6EC2-F748-4C7F-A88F-729437A6DA9B}|Mock_ASM\\Mock_ASM.csproj|c:\\mock_asm\\mock_asm\\mock_asm\\controllers\\instructorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEEC6EC2-F748-4C7F-A88F-729437A6DA9B}|Mock_ASM\\Mock_ASM.csproj|solutionrelative:mock_asm\\controllers\\instructorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\mock_asm\\mock_asm\\businesslogiclayer\\services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|c:\\mock_asm\\mock_asm\\dataaccesslayer\\repositories\\iclassrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\iclassrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|c:\\mock_asm\\mock_asm\\dataaccesslayer\\repositories\\classrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\classrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEC6EC2-F748-4C7F-A88F-729437A6DA9B}|Mock_ASM\\Mock_ASM.csproj|c:\\mock_asm\\mock_asm\\mock_asm\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEEC6EC2-F748-4C7F-A88F-729437A6DA9B}|Mock_ASM\\Mock_ASM.csproj|solutionrelative:mock_asm\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|c:\\mock_asm\\mock_asm\\dataaccesslayer\\repositories\\instructordbrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\instructordbrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -83,60 +139,8 @@
       "RelativeMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\istudentinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEEC6EC2-F748-4C7F-A88F-729437A6DA9B}|Mock_ASM\\Mock_ASM.csproj|c:\\mock_asm\\mock_asm\\mock_asm\\controllers\\studentinfoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEEC6EC2-F748-4C7F-A88F-729437A6DA9B}|Mock_ASM\\Mock_ASM.csproj|solutionrelative:mock_asm\\controllers\\studentinfoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEEC6EC2-F748-4C7F-A88F-729437A6DA9B}|Mock_ASM\\Mock_ASM.csproj|c:\\mock_asm\\mock_asm\\mock_asm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FEEC6EC2-F748-4C7F-A88F-729437A6DA9B}|Mock_ASM\\Mock_ASM.csproj|solutionrelative:mock_asm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\mock_asm\\mock_asm\\businesslogiclayer\\services\\studentinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\studentinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|c:\\mock_asm\\mock_asm\\dataaccesslayer\\repositories\\studentinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\studentinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|c:\\mock_asm\\mock_asm\\dataaccesslayer\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|c:\\mock_asm\\mock_asm\\dataaccesslayer\\models\\studentinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\studentinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|c:\\mock_asm\\mock_asm\\dataaccesslayer\\sorting\\sortingenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\sorting\\sortingenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\mock_asm\\mock_asm\\businesslogiclayer\\dto\\studentinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dto\\studentinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\mock_asm\\mock_asm\\businesslogiclayer\\dto\\classdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dto\\classdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|c:\\mock_asm\\mock_asm\\dataaccesslayer\\dataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|c:\\mock_asm\\mock_asm\\dataaccesslayer\\migrations\\mockasmcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\mockasmcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\mock_asm\\mock_asm\\businesslogiclayer\\dto\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dto\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|c:\\mock_asm\\mock_asm\\dataaccesslayer\\migrations\\20240410070353_mock_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44AC77EF-92E6-41C4-815A-CD32526F80ED}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\20240410070353_mock_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\mock_asm\\mock_asm\\businesslogiclayer\\dto\\instructordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{013D923F-B251-49F3-A700-0BD00CA049D6}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dto\\instructordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -146,7 +150,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -154,33 +158,163 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClassController.cs",
-              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\Mock_ASM\\Controllers\\ClassController.cs",
-              "RelativeDocumentMoniker": "Mock_ASM\\Controllers\\ClassController.cs",
-              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\Mock_ASM\\Controllers\\ClassController.cs",
-              "RelativeToolTip": "Mock_ASM\\Controllers\\ClassController.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAswDkAAABEAAAA",
+              "DocumentIndex": 1,
+              "Title": "20240424093543_init.cs",
+              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Migrations\\20240424093543_init.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\20240424093543_init.cs",
+              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Migrations\\20240424093543_init.cs",
+              "RelativeToolTip": "DataAccessLayer\\Migrations\\20240424093543_init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T08:13:20.942Z",
+              "WhenOpened": "2024-04-24T09:35:44.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Mock_ASM.http",
+              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\Mock_ASM\\Mock_ASM.http",
+              "RelativeDocumentMoniker": "Mock_ASM\\Mock_ASM.http",
+              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\Mock_ASM\\Mock_ASM.http",
+              "RelativeToolTip": "Mock_ASM\\Mock_ASM.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-04-24T09:29:56.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Models\\Student.cs",
+              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Models\\Student.cs",
+              "RelativeToolTip": "DataAccessLayer\\Models\\Student.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA1wBEAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T06:26:54.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentInfo.cs",
+              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Models\\StudentInfo.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Models\\StudentInfo.cs",
+              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Models\\StudentInfo.cs",
+              "RelativeToolTip": "DataAccessLayer\\Models\\StudentInfo.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA1wBIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T08:56:15.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentInfoDTO.cs",
+              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\DTO\\StudentInfoDTO.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTO\\StudentInfoDTO.cs",
+              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\DTO\\StudentInfoDTO.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\DTO\\StudentInfoDTO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T03:13:41.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MockAsmContext.cs",
+              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Models\\MockAsmContext.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Models\\MockAsmContext.cs",
+              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Models\\MockAsmContext.cs",
+              "RelativeToolTip": "DataAccessLayer\\Models\\MockAsmContext.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAADgv24AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T08:52:47.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\Mock_ASM\\appsettings.json",
+              "RelativeDocumentMoniker": "Mock_ASM\\appsettings.json",
+              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\Mock_ASM\\appsettings.json",
+              "RelativeToolTip": "Mock_ASM\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-22T15:11:46.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\Mock_ASM\\Program.cs",
+              "RelativeDocumentMoniker": "Mock_ASM\\Program.cs",
+              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\Mock_ASM\\Program.cs",
+              "RelativeToolTip": "Mock_ASM\\Program.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T09:04:23.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentInfoRepository.cs",
+              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Repositories\\StudentInfoRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\StudentInfoRepository.cs",
+              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Repositories\\StudentInfoRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\StudentInfoRepository.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAswEYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T08:11:45.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Repositories\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\IStudentRepository.cs",
+              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Repositories\\IStudentRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\IStudentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T14:41:50.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StudentInfoesController.cs",
+              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\Mock_ASM\\Controllers\\StudentInfoesController.cs",
+              "RelativeDocumentMoniker": "Mock_ASM\\Controllers\\StudentInfoesController.cs",
+              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\Mock_ASM\\Controllers\\StudentInfoesController.cs",
+              "RelativeToolTip": "Mock_ASM\\Controllers\\StudentInfoesController.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAkwE4AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T03:18:02.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ClassService.cs",
               "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\Services\\ClassService.cs",
               "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\ClassService.cs",
               "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\Services\\ClassService.cs",
               "RelativeToolTip": "BusinessLogicLayer\\Services\\ClassService.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAA3wBIAAAAyAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAwBIAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-23T08:01:33.922Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "IClassService.cs",
               "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\Services\\IClassService.cs",
               "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\IClassService.cs",
@@ -193,46 +327,176 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
+              "Title": "InstructorBLLService.cs",
+              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\Services\\InstructorBLLService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\InstructorBLLService.cs",
+              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\Services\\InstructorBLLService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Services\\InstructorBLLService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T15:38:00.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "InstructorService.cs",
+              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\Services\\InstructorService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\InstructorService.cs",
+              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\Services\\InstructorService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Services\\InstructorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T15:36:15.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IStudentInfoService.cs",
+              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\Services\\IStudentInfoService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\IStudentInfoService.cs",
+              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\Services\\IStudentInfoService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Services\\IStudentInfoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T08:17:02.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "StudentService.cs",
               "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\Services\\StudentService.cs",
               "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\StudentService.cs",
               "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\Services\\StudentService.cs",
               "RelativeToolTip": "BusinessLogicLayer\\Services\\StudentService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAABTAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBEAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T14:57:33.658Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IStudentService.cs",
-              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\Services\\IStudentService.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\IStudentService.cs",
-              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\Services\\IStudentService.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\Services\\IStudentService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
+              "DocumentIndex": 17,
+              "Title": "StudentInfoService.cs",
+              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\Services\\StudentInfoService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\StudentInfoService.cs",
+              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\Services\\StudentInfoService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Services\\StudentInfoService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAzwBEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T14:55:48.263Z",
+              "WhenOpened": "2024-04-22T14:52:58.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 18,
               "Title": "MappingInfo.cs",
               "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\Mapping\\MappingInfo.cs",
               "RelativeDocumentMoniker": "BusinessLogicLayer\\Mapping\\MappingInfo.cs",
               "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\Mapping\\MappingInfo.cs",
               "RelativeToolTip": "BusinessLogicLayer\\Mapping\\MappingInfo.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAQwBYAAAAeAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-10T03:04:41.403Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 19,
+              "Title": "StudentDTO.cs",
+              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\DTO\\StudentDTO.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTO\\StudentDTO.cs",
+              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\DTO\\StudentDTO.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\DTO\\StudentDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T03:02:20.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "InstructorDTO.cs",
+              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\DTO\\InstructorDTO.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTO\\InstructorDTO.cs",
+              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\DTO\\InstructorDTO.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\DTO\\InstructorDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T03:01:58.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ClassDTO.cs",
+              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\DTO\\ClassDTO.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTO\\ClassDTO.cs",
+              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\DTO\\ClassDTO.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\DTO\\ClassDTO.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAzwA4AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T03:13:33.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ClassController.cs",
+              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\Mock_ASM\\Controllers\\ClassController.cs",
+              "RelativeDocumentMoniker": "Mock_ASM\\Controllers\\ClassController.cs",
+              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\Mock_ASM\\Controllers\\ClassController.cs",
+              "RelativeToolTip": "Mock_ASM\\Controllers\\ClassController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T08:13:20.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Repositories\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\StudentRepository.cs",
+              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\StudentRepository.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwDMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T14:42:15.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Instructor.cs",
+              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Models\\Instructor.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Models\\Instructor.cs",
+              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Models\\Instructor.cs",
+              "RelativeToolTip": "DataAccessLayer\\Models\\Instructor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T06:26:50.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Class.cs",
+              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Models\\Class.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Models\\Class.cs",
+              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Models\\Class.cs",
+              "RelativeToolTip": "DataAccessLayer\\Models\\Class.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T08:52:30.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "InstructorsController.cs",
               "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\Mock_ASM\\Controllers\\InstructorsController.cs",
               "RelativeDocumentMoniker": "Mock_ASM\\Controllers\\InstructorsController.cs",
@@ -240,12 +504,23 @@
               "RelativeToolTip": "Mock_ASM\\Controllers\\InstructorsController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T15:43:54.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T15:43:54.813Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 27,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\Services\\IStudentService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\IStudentService.cs",
+              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\Services\\IStudentService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Services\\IStudentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T14:55:48.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "IClassRepository.cs",
               "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Repositories\\IClassRepository.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\IClassRepository.cs",
@@ -253,25 +528,11 @@
               "RelativeToolTip": "DataAccessLayer\\Repositories\\IClassRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T07:48:17.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T07:48:17.181Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\Mock_ASM\\Program.cs",
-              "RelativeDocumentMoniker": "Mock_ASM\\Program.cs",
-              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\Mock_ASM\\Program.cs",
-              "RelativeToolTip": "Mock_ASM\\Program.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T09:04:23.902Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 29,
               "Title": "ClassRepository.cs",
               "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Repositories\\ClassRepository.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\ClassRepository.cs",
@@ -279,12 +540,11 @@
               "RelativeToolTip": "DataAccessLayer\\Repositories\\ClassRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T07:56:19.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T07:56:19.988Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 30,
               "Title": "StudentsController.cs",
               "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\Mock_ASM\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "Mock_ASM\\Controllers\\StudentsController.cs",
@@ -296,70 +556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "InstructorService.cs",
-              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\Services\\InstructorService.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\InstructorService.cs",
-              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\Services\\InstructorService.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\Services\\InstructorService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T15:36:15.096Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "StudentRepository.cs",
-              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Repositories\\StudentRepository.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\StudentRepository.cs",
-              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Repositories\\StudentRepository.cs",
-              "RelativeToolTip": "DataAccessLayer\\Repositories\\StudentRepository.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAgwDMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T14:42:15.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IStudentRepository.cs",
-              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Repositories\\IStudentRepository.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\IStudentRepository.cs",
-              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Repositories\\IStudentRepository.cs",
-              "RelativeToolTip": "DataAccessLayer\\Repositories\\IStudentRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T14:41:50.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "InstructorBLLService.cs",
-              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\Services\\InstructorBLLService.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\InstructorBLLService.cs",
-              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\Services\\InstructorBLLService.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\Services\\InstructorBLLService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBQAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T15:38:00.982Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MockAsmContext.cs",
-              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Models\\MockAsmContext.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Models\\MockAsmContext.cs",
-              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Models\\MockAsmContext.cs",
-              "RelativeToolTip": "DataAccessLayer\\Models\\MockAsmContext.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAawE0AAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T08:52:47.589Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 31,
               "Title": "InstructorDbRepository.cs",
               "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Repositories\\InstructorDbRepository.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\InstructorDbRepository.cs",
@@ -371,7 +568,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 32,
               "Title": "InstructorRepository.cs",
               "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Repositories\\InstructorRepository.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\InstructorRepository.cs",
@@ -383,43 +580,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "StudentInfoesController.cs",
-              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\Mock_ASM\\Controllers\\StudentInfoesController.cs",
-              "RelativeDocumentMoniker": "Mock_ASM\\Controllers\\StudentInfoesController.cs",
-              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\Mock_ASM\\Controllers\\StudentInfoesController.cs",
-              "RelativeToolTip": "Mock_ASM\\Controllers\\StudentInfoesController.cs",
-              "ViewState": "AQIAAGoAAAAAAAAAAADwv1IAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T03:18:02.6Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IStudentInfoService.cs",
-              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\Services\\IStudentInfoService.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\IStudentInfoService.cs",
-              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\Services\\IStudentInfoService.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\Services\\IStudentInfoService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T08:17:02.621Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\Mock_ASM\\appsettings.json",
-              "RelativeDocumentMoniker": "Mock_ASM\\appsettings.json",
-              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\Mock_ASM\\appsettings.json",
-              "RelativeToolTip": "Mock_ASM\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-22T15:11:46.457Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 33,
               "Title": "IStudentInfoRepository.cs",
               "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Repositories\\IStudentInfoRepository.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\IStudentInfoRepository.cs",
@@ -431,91 +592,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "StudentInfoService.cs",
-              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\Services\\StudentInfoService.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\StudentInfoService.cs",
-              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\Services\\StudentInfoService.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\Services\\StudentInfoService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T14:52:58.393Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "StudentInfoRepository.cs",
-              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Repositories\\StudentInfoRepository.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\StudentInfoRepository.cs",
-              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Repositories\\StudentInfoRepository.cs",
-              "RelativeToolTip": "DataAccessLayer\\Repositories\\StudentInfoRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T08:11:45.939Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Class.cs",
-              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Models\\Class.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Models\\Class.cs",
-              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Models\\Class.cs",
-              "RelativeToolTip": "DataAccessLayer\\Models\\Class.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T08:52:30.778Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "SortingEnums.cs",
-              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Sorting\\SortingEnums.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Sorting\\SortingEnums.cs",
-              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Sorting\\SortingEnums.cs",
-              "RelativeToolTip": "DataAccessLayer\\Sorting\\SortingEnums.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T02:57:09.042Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "StudentInfo.cs",
-              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Models\\StudentInfo.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Models\\StudentInfo.cs",
-              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Models\\StudentInfo.cs",
-              "RelativeToolTip": "DataAccessLayer\\Models\\StudentInfo.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBEAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T08:56:15.279Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "StudentInfoDTO.cs",
-              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\DTO\\StudentInfoDTO.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTO\\StudentInfoDTO.cs",
-              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\DTO\\StudentInfoDTO.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\DTO\\StudentInfoDTO.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAzwBoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T03:13:41.234Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ClassDTO.cs",
-              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\DTO\\ClassDTO.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTO\\ClassDTO.cs",
-              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\DTO\\ClassDTO.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\DTO\\ClassDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T03:13:33.132Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "DataAccessLayer.csproj",
               "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\DataAccessLayer.csproj",
               "RelativeDocumentMoniker": "DataAccessLayer\\DataAccessLayer.csproj",
@@ -524,54 +601,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-04-22T02:36:22.692Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "MockAsmContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Migrations\\MockAsmContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\MockAsmContextModelSnapshot.cs",
-              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Migrations\\MockAsmContextModelSnapshot.cs",
-              "RelativeToolTip": "DataAccessLayer\\Migrations\\MockAsmContextModelSnapshot.cs",
-              "ViewState": "AQIAAHMAAAAAAAAAAAAQwIYAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T04:48:58.065Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "20240410070353_Mock_1.cs",
-              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Migrations\\20240410070353_Mock_1.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\20240410070353_Mock_1.cs",
-              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\DataAccessLayer\\Migrations\\20240410070353_Mock_1.cs",
-              "RelativeToolTip": "DataAccessLayer\\Migrations\\20240410070353_Mock_1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T02:29:57.891Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "InstructorDTO.cs",
-              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\DTO\\InstructorDTO.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTO\\InstructorDTO.cs",
-              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\DTO\\InstructorDTO.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\DTO\\InstructorDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T03:01:58.79Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "StudentDTO.cs",
-              "DocumentMoniker": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\DTO\\StudentDTO.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTO\\StudentDTO.cs",
-              "ToolTip": "C:\\Mock_ASM\\Mock_ASM\\BusinessLogicLayer\\DTO\\StudentDTO.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\DTO\\StudentDTO.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwAUAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T03:02:20.527Z"
             }
           ]
         }

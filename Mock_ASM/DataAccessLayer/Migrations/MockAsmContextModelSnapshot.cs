@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
-//trycatch ở đây vì có thể sẽ xảy ra lỗi như lỗi kết nối, lỗi runtime,... 
+
 namespace DataAccessLayer.Migrations
 {
     [DbContext(typeof(MockAsmContext))]
@@ -15,16 +15,14 @@ namespace DataAccessLayer.Migrations
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
-            try
-            {
 #pragma warning disable 612, 618
-                modelBuilder
-                    .HasAnnotation("ProductVersion", "8.0.3")
-                    .HasAnnotation("Relational:MaxIdentifierLength", 128);
+            modelBuilder
+                .HasAnnotation("ProductVersion", "8.0.3")
+                .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
-                SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-                modelBuilder.Entity("ClassInstructor", b =>
+            modelBuilder.Entity("ClassInstructor", b =>
                 {
                     b.Property<int>("ClassId")
                         .HasColumnType("int")
@@ -42,7 +40,7 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("Class_Instructor", (string)null);
                 });
 
-                modelBuilder.Entity("DataAccessLayer.Models.Class", b =>
+            modelBuilder.Entity("DataAccessLayer.Models.Class", b =>
                 {
                     b.Property<int>("ClassId")
                         .ValueGeneratedOnAdd()
@@ -75,7 +73,7 @@ namespace DataAccessLayer.Migrations
                         });
                 });
 
-                modelBuilder.Entity("DataAccessLayer.Models.Instructor", b =>
+            modelBuilder.Entity("DataAccessLayer.Models.Instructor", b =>
                 {
                     b.Property<int>("InstructorId")
                         .ValueGeneratedOnAdd()
@@ -125,7 +123,7 @@ namespace DataAccessLayer.Migrations
                         });
                 });
 
-                modelBuilder.Entity("DataAccessLayer.Models.Student", b =>
+            modelBuilder.Entity("DataAccessLayer.Models.Student", b =>
                 {
                     b.Property<int>("StudentId")
                         .ValueGeneratedOnAdd()
@@ -155,8 +153,6 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("ClassId");
 
-                    b.HasIndex("StudentInfoId");
-
                     b.ToTable("Student", (string)null);
 
                     b.HasData(
@@ -169,14 +165,11 @@ namespace DataAccessLayer.Migrations
                         });
                 });
 
-                modelBuilder.Entity("DataAccessLayer.Models.StudentInfo", b =>
+            modelBuilder.Entity("DataAccessLayer.Models.StudentInfo", b =>
                 {
                     b.Property<int>("StudentInfoId")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasColumnName("student_info_id");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("StudentInfoId"));
 
                     b.Property<DateTime>("DateOfBirth")
                         .HasColumnType("datetime2")
@@ -219,7 +212,7 @@ namespace DataAccessLayer.Migrations
                         });
                 });
 
-                modelBuilder.Entity("ClassInstructor", b =>
+            modelBuilder.Entity("ClassInstructor", b =>
                 {
                     b.HasOne("DataAccessLayer.Models.Class", null)
                         .WithMany()
@@ -234,7 +227,7 @@ namespace DataAccessLayer.Migrations
                         .HasConstraintName("FK__Class_Ins__instr__35BCFE0A");
                 });
 
-                modelBuilder.Entity("DataAccessLayer.Models.Student", b =>
+            modelBuilder.Entity("DataAccessLayer.Models.Student", b =>
                 {
                     b.HasOne("DataAccessLayer.Models.Class", "Class")
                         .WithMany("Students")
@@ -242,35 +235,31 @@ namespace DataAccessLayer.Migrations
                         .IsRequired()
                         .HasConstraintName("FK__Student__class_i__2F10007B");
 
-                    b.HasOne("DataAccessLayer.Models.StudentInfo", "StudentInfo")
-                        .WithMany("Students")
-                        .HasForeignKey("StudentInfoId")
+                    b.Navigation("Class");
+                });
+
+            modelBuilder.Entity("DataAccessLayer.Models.StudentInfo", b =>
+                {
+                    b.HasOne("DataAccessLayer.Models.Student", "Student")
+                        .WithOne("StudentInfo")
+                        .HasForeignKey("DataAccessLayer.Models.StudentInfo", "StudentInfoId")
                         .IsRequired()
                         .HasConstraintName("FK__Student__student__2E1BDC42");
 
-                    b.Navigation("Class");
-
-                    b.Navigation("StudentInfo");
+                    b.Navigation("Student");
                 });
 
-                modelBuilder.Entity("DataAccessLayer.Models.Class", b =>
+            modelBuilder.Entity("DataAccessLayer.Models.Class", b =>
                 {
                     b.Navigation("Students");
                 });
 
-                modelBuilder.Entity("DataAccessLayer.Models.StudentInfo", b =>
+            modelBuilder.Entity("DataAccessLayer.Models.Student", b =>
                 {
-                    b.Navigation("Students");
+                    b.Navigation("StudentInfo")
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
-            
-
-            }
-            catch (Exception ex)
-            {
-
-                Console.WriteLine($"An error occurred while building the model: {ex.Message}");
-            }
         }
     }
 }
