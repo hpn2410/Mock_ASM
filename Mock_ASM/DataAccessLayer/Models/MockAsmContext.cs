@@ -105,10 +105,10 @@ public partial class MockAsmContext : DbContext
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__Student__class_i__2F10007B");
 
-            entity.HasOne(d => d.StudentInfo).WithMany(p => p.Students)
-                .HasForeignKey(d => d.StudentInfoId)
+            entity.HasOne(d => d.StudentInfo).WithOne(p => p.Student)
+                .HasForeignKey<Student>(d => d.StudentInfoId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Student__student__2E1BDC42");
+                .HasConstraintName("FK_Student_StudentInfo");
         });
 
         modelBuilder.Entity<StudentInfo>(entity =>

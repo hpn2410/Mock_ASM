@@ -66,7 +66,7 @@ namespace Mock_ASM.Controllers
             {
                 return NotFound();
             }
-            return Ok(updateInstructor);
+            return NoContent();
         }
 
         // POST: api/StudentInfoes

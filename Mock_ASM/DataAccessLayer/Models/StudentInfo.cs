@@ -15,7 +15,7 @@ public partial class StudentInfo
 
     public string Email { get; set; } = null!;
 
-    public virtual ICollection<Student> Students { get; set; } = new List<Student>();
+    public virtual Student Student { get; set; }
     public enum SortField
     {
         StudentName, DateOfBirth, Phone, Email

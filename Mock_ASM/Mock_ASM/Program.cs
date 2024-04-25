@@ -39,7 +39,7 @@ builder.Services.AddScoped<IClassRepository, ClassRepository>();
 builder.Services.AddAutoMapper(typeof(MappingInfo));
 
 // Add DbContext
-var connectionString = builder.Configuration.GetConnectionString("Student_Management");
+var connectionString = builder.Configuration.GetConnectionString("Mock_ASM_Db");
 builder.Services.AddDbContext<MockAsmContext>(options =>
     options.UseSqlServer(connectionString));
 
