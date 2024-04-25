@@ -16,13 +16,13 @@ public partial class StudentInfo
     public string Email { get; set; } = null!;
 
     public virtual Student Student { get; set; }
-    public enum SortField
-    {
-        StudentName, DateOfBirth, Phone, Email
-    }
-    public enum SortType
-    {
-        Ascending = 1,
-        Descending = 2,
-    }
+    //public enum SortField
+    //{
+    //    StudentName, DateOfBirth, Phone, Email
+    //}
+    //public enum SortType
+    //{
+    //    Ascending = 1,
+    //    Descending = 2,
+    //}
 }

@@ -1,5 +1,4 @@
-﻿
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using DataAccessLayer.Models;
 using BusinessLogicLayer.DTO;
 using BusinessLogicLayer.Services;
@@ -93,7 +92,8 @@ namespace Mock_ASM.Controllers
             {
                 return NotFound();
             }
-            return new NoContentWithMessageResult("Student deleted successfully.");
+            return NoContent();
+            //return new NoContentWithMessageResult("Student deleted successfully.");
         }
         public class NoContentWithMessageResult : StatusCodeResult
         {
@@ -112,9 +112,10 @@ namespace Mock_ASM.Controllers
 
         [HttpGet("filter")]
         public ActionResult<IEnumerable<StudentInfoDTO>> GetStudents([FromQuery] string? studentName,
-            [FromQuery] string? email, [FromQuery] SortField? sortField, 
+            [FromQuery] string? email, [FromQuery] SortField? sortField,
             [FromQuery] SortType? sortType, [FromQuery] int pageNumber, [FromQuery] int pageSize)
         {
+
             int totalRecords;
             var studentInfos = _studentInfoRepository.GetStudentInfoes(
                 studentName, email, sortField, sortType, pageNumber,

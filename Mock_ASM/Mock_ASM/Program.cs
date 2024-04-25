@@ -5,25 +5,39 @@ using DataAccessLayer.Repositories;
 using BusinessLogicLayer.Mapping;
 using AutoMapper;
 using System.Text.Json;
+using Microsoft.OpenApi.Models;
+using DataAccessLayer.Sorting;
+using Microsoft.OpenApi.Any;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add configuration
 builder.Configuration.AddJsonFile("appsettings.json");
 
 // Add services to the container.
+//builder.Services.AddControllers(options =>
+//{
+//    options.ReturnHttpNotAcceptable = true;
+//}).AddJsonOptions(options =>
+//{
+//    options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
+//    options.JsonSerializerOptions.IgnoreNullValues = true;
+//}).AddXmlDataContractSerializerFormatters();
 
-builder.Services.AddControllers(options =>
-{
-    options.ReturnHttpNotAcceptable = true;
-}).AddJsonOptions(options =>
-    {
-        options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
-        options.JsonSerializerOptions.IgnoreNullValues = true;
-    }).AddXmlDataContractSerializerFormatters();
+builder.Services.AddControllers().AddXmlDataContractSerializerFormatters();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Your API Name", Version = "v1" });
+
+    // Customize sortFieldDisplay parameter description
+    c.MapType<SortField>(() => new OpenApiSchema
+    {
+        Description = "Choose a field to sort by: StudentName, DateOfBirth, Phone, Email",
+        Enum = Enum.GetNames(typeof(SortField)).Select(x => new OpenApiString(x)).ToList().OfType<IOpenApiAny>().ToList()
+    });
+});
 
 // Add services
 builder.Services.AddScoped<IStudentInfoService, StudentInfoService>();
