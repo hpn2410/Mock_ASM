@@ -79,7 +79,7 @@ namespace Mock_ASM.Controllers
                 return BadRequest(ModelState);
             }
             await _instructorService.Post(instructor);
-            return instructor;
+            return CreatedAtRoute(new {}, instructor);
         }
 
         // DELETE: api/StudentInfoes/5

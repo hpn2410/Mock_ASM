@@ -81,9 +81,7 @@ namespace Mock_ASM.Controllers
                 return BadRequest(ModelState);
             }
             await _studentInfoService.Post(studentInfo);
-            //return CreatedAtAction(nameof(GetStudentInfoById), 
-            //    new { id = newStudent.StudentInfoId }, newStudent);
-            return studentInfo;
+            return CreatedAtRoute(new { }, studentInfo);
         }
 
         // DELETE: api/StudentInfoes/5
