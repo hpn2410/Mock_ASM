@@ -8,6 +8,7 @@ using System.Text.Json;
 using Microsoft.OpenApi.Models;
 using DataAccessLayer.Sorting;
 using Microsoft.OpenApi.Any;
+using Mock_ASM;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add configuration
@@ -26,6 +27,7 @@ builder.Configuration.AddJsonFile("appsettings.json");
 builder.Services.AddControllers().AddXmlDataContractSerializerFormatters();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddExceptionHandler<AppExceptionHandler>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
@@ -65,6 +67,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseExceptionHandler(_ => { });
 
 app.UseHttpsRedirection();
 

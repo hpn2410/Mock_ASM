@@ -19,6 +19,7 @@ namespace BusinessLogicLayer.Services
 
         public async Task<List<StudentInfoDTO>> GetAll()
         {
+            //throw new Exception("Test Exception");
             // Add any additional business logic here
             var studentInfoes = await _studentInfoRepository.GetAll();
             return _mapper.Map<List<StudentInfoDTO>>(studentInfoes);
