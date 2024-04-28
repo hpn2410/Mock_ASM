@@ -36,7 +36,7 @@ namespace BusinessLogicLayer.Services
         {
             // Add any additional business logic here
             var addStudentInfo = await _studentInfoRepository.Post
-                (_mapper.Map<StudentInfo>(studentInfo));
+                (_mapper.Map<StudentInfoes>(studentInfo));
              return _mapper.Map<StudentInfoDTO>(addStudentInfo);
         }
 
@@ -44,7 +44,7 @@ namespace BusinessLogicLayer.Services
          {
              // Add any additional business logic here
              var updatedStudent = await _studentInfoRepository.
-                 Put(_mapper.Map<StudentInfo>(studentInfo));
+                 Put(_mapper.Map<StudentInfoes>(studentInfo));
              return _mapper.Map<StudentInfoDTO>(updatedStudent);
          }
         

@@ -9,10 +9,10 @@ namespace DataAccessLayer.Repositories
 {
     public interface IClassRepository
     {
-        Task<List<Class>> GetAll();
-        Task<Class> GetById(int id);
-        Task<Class> Post(Class studentClass);
-        Task<Class> Put(Class studentClass);
+        Task<List<Classes>> GetAll();
+        Task<Classes> GetById(int id);
+        Task<Classes> Post(Classes studentClass);
+        Task<Classes> Put(Classes studentClass);
         Task<bool> Delete(int id);
     }
 }

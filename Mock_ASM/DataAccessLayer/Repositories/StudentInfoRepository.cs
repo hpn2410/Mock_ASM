@@ -14,24 +14,24 @@ namespace DataAccessLayer.Repositories
             _DbContext = context;
         }
 
-        public async Task<List<StudentInfo>> GetAll()
+        public async Task<List<StudentInfoes>> GetAll()
         {
             return await _DbContext.StudentInfos.ToListAsync();
         }
 
-        public async Task<StudentInfo> GetById(int id)
+        public async Task<StudentInfoes> GetById(int id)
         {
             return await _DbContext.StudentInfos.FindAsync(id);
         }
 
-        public async Task<StudentInfo> Post(StudentInfo studentInfo)
+        public async Task<StudentInfoes> Post(StudentInfoes studentInfo)
         {
             _DbContext.StudentInfos.Add(studentInfo);
             await _DbContext.SaveChangesAsync();
             return studentInfo;
         }
 
-        public async Task<StudentInfo> Put(StudentInfo studentInfo)
+        public async Task<StudentInfoes> Put(StudentInfoes studentInfo)
         {
             _DbContext.Entry(studentInfo).State = EntityState.Modified;
             await _DbContext.SaveChangesAsync();
@@ -49,7 +49,7 @@ namespace DataAccessLayer.Repositories
             return true;
         }
 
-        public IEnumerable<StudentInfo> GetStudentInfoes(string? studentName, string? email,
+        public IEnumerable<StudentInfoes> GetStudentInfoes(string? studentName, string? email,
             SortField? sortField, SortType? sortType,
             int pageNumber, int pageSize, out int totalRecords)
         {

@@ -16,24 +16,24 @@ namespace DataAccessLayer.Repositories
             _DbContext = context;
         }
 
-        public async Task<List<Student>> GetAll()
+        public async Task<List<Students>> GetAll()
         {
             return await _DbContext.Students.ToListAsync();
         }
 
-        public async Task<Student> GetById(int id)
+        public async Task<Students> GetById(int id)
         {
             return await _DbContext.Students.FindAsync(id);
         }
 
-        public async Task<Student> Post(Student student)
+        public async Task<Students> Post(Students student)
         {
             _DbContext.Students.Add(student);
             await _DbContext.SaveChangesAsync();
             return student;
         }
 
-        public async Task<Student> Put(Student student)
+        public async Task<Students> Put(Students student)
         {
             _DbContext.Entry(student).State = EntityState.Modified;
             await _DbContext.SaveChangesAsync();

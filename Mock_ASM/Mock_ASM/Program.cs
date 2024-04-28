@@ -9,6 +9,7 @@ using Microsoft.OpenApi.Models;
 using DataAccessLayer.Sorting;
 using Microsoft.OpenApi.Any;
 using Mock_ASM;
+using System.Linq;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add configuration
@@ -38,6 +39,11 @@ builder.Services.AddSwaggerGen(c =>
     {
         Description = "Choose a field to sort by: StudentName, DateOfBirth, Phone, Email",
         Enum = Enum.GetNames(typeof(SortField)).Select(x => new OpenApiString(x)).ToList().OfType<IOpenApiAny>().ToList()
+    });
+    c.MapType<SortType>(() => new OpenApiSchema
+    {
+        Description = "Choose a type to sort: Ascending, Descending",
+        Enum = Enum.GetNames(typeof(SortType)).Select(x => new OpenApiString(x)).ToList().OfType<IOpenApiAny>().ToList()
     });
 });
 

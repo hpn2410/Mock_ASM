@@ -4,10 +4,10 @@ namespace DataAccessLayer.Repositories
 {
     public interface InstructorRepository
     {
-        Task<List<Instructor>> GetAll();
-        Task<Instructor> GetById(int id);
-        Task<Instructor> Post(Instructor instructor);
-        Task<Instructor> Put(Instructor instructor);
+        Task<List<Instructors>> GetAll();
+        Task<Instructors> GetById(int id);
+        Task<Instructors> Post(Instructors instructor);
+        Task<Instructors> Put(Instructors instructor);
         Task<bool> Delete(int id);
     }
 }

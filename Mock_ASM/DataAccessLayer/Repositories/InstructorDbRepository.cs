@@ -11,24 +11,24 @@ namespace DataAccessLayer.Repositories
             _DbContext = context;
         }
 
-        public async Task<List<Instructor>> GetAll()
+        public async Task<List<Instructors>> GetAll()
         {
             return await _DbContext.Instructors.ToListAsync();
         }
 
-        public async Task<Instructor> GetById(int id)
+        public async Task<Instructors> GetById(int id)
         {
             return await _DbContext.Instructors.FindAsync(id);
         }
 
-        public async Task<Instructor> Post(Instructor instructor)
+        public async Task<Instructors> Post(Instructors instructor)
         {
             _DbContext.Instructors.Add(instructor);
             await _DbContext.SaveChangesAsync();
             return instructor;
         }
 
-        public async Task<Instructor> Put(Instructor instructor)
+        public async Task<Instructors> Put(Instructors instructor)
         {
             _DbContext.Entry(instructor).State = EntityState.Modified;
             await _DbContext.SaveChangesAsync();

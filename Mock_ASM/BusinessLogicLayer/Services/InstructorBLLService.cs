@@ -36,7 +36,7 @@ namespace BusinessLogicLayer.Services
         {
             // Add any additional business logic here
             var addInstructor = await _instructorRepository.Post
-                (_mapper.Map<Instructor>(instructor));
+                (_mapper.Map<Instructors>(instructor));
             return _mapper.Map<InstructorDTO>(addInstructor);
         }
 
@@ -44,7 +44,7 @@ namespace BusinessLogicLayer.Services
         {
             // Add any additional business logic here
             var updatedInstructor = await _instructorRepository.
-                Put(_mapper.Map<Instructor>(instructor));
+                Put(_mapper.Map<Instructors>(instructor));
             return _mapper.Map<InstructorDTO>(updatedInstructor);
         }
 

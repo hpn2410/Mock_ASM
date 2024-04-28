@@ -9,20 +9,20 @@ namespace BusinessLogicLayer.Mapping
         public MappingInfo()
         {
             // StudentInfo CreateMap
-            CreateMap<StudentInfo, StudentInfoDTO>().ReverseMap();
-            CreateMap<StudentInfoDTO, StudentInfo>().ReverseMap();
+            CreateMap<StudentInfoes, StudentInfoDTO>().ReverseMap();
+            CreateMap<StudentInfoDTO, StudentInfoes>().ReverseMap();
 
             // Student CreateMap
-            CreateMap<Student, StudentDTO>().ReverseMap();
-            CreateMap<StudentDTO, Student>().ReverseMap();
+            CreateMap<Students, StudentDTO>().ReverseMap();
+            CreateMap<StudentDTO, Students>().ReverseMap();
 
             // Instructor CreateMap
-            CreateMap<Instructor, InstructorDTO>().ReverseMap();
-            CreateMap<InstructorDTO, Instructor>().ReverseMap();
+            CreateMap<Instructors, InstructorDTO>().ReverseMap();
+            CreateMap<InstructorDTO, Instructors>().ReverseMap();
 
             // Class CreateMap
-            CreateMap<Class, ClassDTO>().ReverseMap();
-            CreateMap<ClassDTO, Class>().ReverseMap();
+            CreateMap<Classes, ClassDTO>().ReverseMap();
+            CreateMap<ClassDTO, Classes>().ReverseMap();
         }
     }
     

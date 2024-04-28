@@ -80,7 +80,7 @@ namespace Mock_ASM.Controllers
                 return BadRequest(ModelState);
             }
             await _studentInfoService.Post(studentInfo);
-            return CreatedAtRoute(new { }, studentInfo);
+            return Created("", studentInfo);
         }
 
         // DELETE: api/StudentInfoes/5
@@ -93,21 +93,6 @@ namespace Mock_ASM.Controllers
                 return NotFound();
             }
             return NoContent();
-            //return new NoContentWithMessageResult("Student deleted successfully.");
-        }
-        public class NoContentWithMessageResult : StatusCodeResult
-        {
-            private readonly string _message;
-
-            public NoContentWithMessageResult(string message) : base(204)
-            {
-                _message = message;
-            }
-
-            public override Task ExecuteResultAsync(ActionContext context)
-            {
-                return base.ExecuteResultAsync(context);
-            }
         }
 
         [HttpGet("filter")]

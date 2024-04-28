@@ -34,7 +34,7 @@ namespace BusinessLogicLayer.Services
         {
             // Add any additional business logic here
             var addClass = await _classRepository.Post
-                (_mapper.Map<Class>(studentClass));
+                (_mapper.Map<Classes>(studentClass));
             return _mapper.Map<ClassDTO>(addClass);
         }
 
@@ -42,7 +42,7 @@ namespace BusinessLogicLayer.Services
         {
             // Add any additional business logic here
             var updateClass = await _classRepository.
-                Put(_mapper.Map<Class>(studentClass));
+                Put(_mapper.Map<Classes>(studentClass));
             return _mapper.Map<ClassDTO>(updateClass);
         }
 

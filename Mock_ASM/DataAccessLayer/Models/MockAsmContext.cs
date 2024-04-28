@@ -15,13 +15,13 @@ public partial class MockAsmContext : DbContext
     {
     }
 
-    public virtual DbSet<Class> Classes { get; set; }
+    public virtual DbSet<Classes> Classes { get; set; }
 
-    public virtual DbSet<Instructor> Instructors { get; set; }
+    public virtual DbSet<Instructors> Instructors { get; set; }
 
-    public virtual DbSet<Student> Students { get; set; }
+    public virtual DbSet<Students> Students { get; set; }
 
-    public virtual DbSet<StudentInfo> StudentInfos { get; set; }
+    public virtual DbSet<StudentInfoes> StudentInfos { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
@@ -29,7 +29,7 @@ public partial class MockAsmContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Class>(entity =>
+        modelBuilder.Entity<Classes>(entity =>
         {
             entity.HasKey(e => e.ClassId).HasName("PK__Class__FDF4798613B0ABE7");
 
@@ -47,11 +47,11 @@ public partial class MockAsmContext : DbContext
             entity.HasMany(d => d.Instructors).WithMany(p => p.Classes)
                 .UsingEntity<Dictionary<string, object>>(
                     "ClassInstructor",
-                    r => r.HasOne<Instructor>().WithMany()
+                    r => r.HasOne<Instructors>().WithMany()
                         .HasForeignKey("InstructorId")
                         .OnDelete(DeleteBehavior.ClientSetNull)
                         .HasConstraintName("FK__Class_Ins__instr__35BCFE0A"),
-                    l => l.HasOne<Class>().WithMany()
+                    l => l.HasOne<Classes>().WithMany()
                         .HasForeignKey("ClassId")
                         .OnDelete(DeleteBehavior.ClientSetNull)
                         .HasConstraintName("FK__Class_Ins__class__34C8D9D1"),
@@ -64,7 +64,7 @@ public partial class MockAsmContext : DbContext
                     });
         });
 
-        modelBuilder.Entity<Instructor>(entity =>
+        modelBuilder.Entity<Instructors>(entity =>
         {
             entity.HasKey(e => e.InstructorId).HasName("PK__Instruct__A1EF56E82CAFDCB3");
 
@@ -85,7 +85,7 @@ public partial class MockAsmContext : DbContext
                 .HasColumnName("phone");
         });
 
-        modelBuilder.Entity<Student>(entity =>
+        modelBuilder.Entity<Students>(entity =>
         {
             entity.HasKey(e => e.StudentId).HasName("PK__Student__2A33069AECCB0CEF");
 
@@ -106,12 +106,12 @@ public partial class MockAsmContext : DbContext
                 .HasConstraintName("FK__Student__class_i__2F10007B");
 
             entity.HasOne(d => d.StudentInfo).WithOne(p => p.Student)
-                .HasForeignKey<Student>(d => d.StudentInfoId)
+                .HasForeignKey<Students>(d => d.StudentInfoId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Student_StudentInfo");
         });
 
-        modelBuilder.Entity<StudentInfo>(entity =>
+        modelBuilder.Entity<StudentInfoes>(entity =>
         {
             entity.HasKey(e => e.StudentInfoId).HasName("PK__Student___8E40FB55BA9B17B1");
 
@@ -138,27 +138,27 @@ public partial class MockAsmContext : DbContext
 
     private void SeedData(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<StudentInfo>().HasData(
-                new StudentInfo { StudentInfoId = 1, StudentName = "NguyenDZ",
+        modelBuilder.Entity<StudentInfoes>().HasData(
+                new StudentInfoes { StudentInfoId = 1, StudentName = "NguyenDZ",
                     DateOfBirth = new DateTime(2002, 5, 12, 0, 0, 0),
                     Phone = "1234567890",
                     Email = "nguyendz@example.com" }
             );
 
-        modelBuilder.Entity<Class>().HasData(
-            new Class { ClassId = 1, ClassCode = "CS101" }
+        modelBuilder.Entity<Classes>().HasData(
+            new Classes { ClassId = 1, ClassCode = "CS101" }
         );
 
-        modelBuilder.Entity<Instructor>().HasData(
-            new Instructor { InstructorId = 1,
+        modelBuilder.Entity<Instructors>().HasData(
+            new Instructors { InstructorId = 1,
                 InstructorName = "Jane Smith",
                 DateOfBirth = new DateTime(1997, 1, 1, 0, 0, 0),
                 Phone = "0987654321",
                 Email = "janesmith@example.com" }
         );
 
-        modelBuilder.Entity<Student>().HasData(
-            new Student
+        modelBuilder.Entity<Students>().HasData(
+            new Students
             {
                 StudentId = 1,
                 StudentCode = "S001",
